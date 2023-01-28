@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="771.0" style="-fx-background-color: #171717;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.SceneController">
+   <left>
+      <AnchorPane prefHeight="327.0" prefWidth="400.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="469.0" fitWidth="537.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/login.jpg" />
+               </image>
+            </ImageView>
+            <AnchorPane layoutX="535.0" layoutY="-4.0" prefHeight="407.0" prefWidth="273.0" style="-fx-background-color: #7A614B">
+               <children>
+                  <Label alignment="CENTER" layoutX="82.0" layoutY="60.0" prefHeight="40.0" prefWidth="82.0" text="Sign In" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="24.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="username" layoutX="27.0" layoutY="136.0" prefHeight="37.0" prefWidth="177.0" promptText="Username" />
+                  <PasswordField fx:id="password" layoutX="28.0" layoutY="185.0" prefHeight="37.0" prefWidth="176.0" promptText="Password" />
+                  <Button fx:id="loginButton" defaultButton="true" layoutX="29.0" layoutY="256.0" mnemonicParsing="false" onAction="#loginFct" prefHeight="33.0" prefWidth="175.0" style="-fx-background-color: #FDEBD0;" text="Continue" textFill="#140202">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font></Button>
+                  <Label layoutX="153.0" layoutY="127.0" textFill="RED" />
+                  <ImageView fitHeight="21.0" fitWidth="35.0" layoutX="162.0" layoutY="263.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/fleche-droite.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </left>
+
+</BorderPane>
