@@ -25,8 +25,8 @@
 ### Clients interface 
     
 <img width="601" alt="10" src="https://user-images.githubusercontent.com/86896531/215147544-90a70b22-cee9-430f-8a2f-2aaf2d583670.png">
-<img width="601" alt="11" src="https://user-images.githubusercontent.com/86896531/215147565-35b8ce02-de19-4dce-ac3c-5f600b4c8b99.png">
-<img width="601" alt="12" src="https://user-images.githubusercontent.com/86896531/215147578-230f99a4-42d2-40a9-98bf-70c39b57758d.png">
+<img width="601" alt="11" src="https://user-images.githubusercontent.com/86896531/215267138-e09ee385-675a-4fa2-85e0-45c1369acbea.png">
+<img width="601" alt="12" src="https://user-images.githubusercontent.com/86896531/215267144-2d0c97d3-8cd3-48a1-b2c2-2c16adebb5f8.png">
 
 ### Activities interface 
 
